@@ -69,7 +69,7 @@ functia connect()
 care contine si ID-ul clientului  
 -Am adaugat socket-ul si fluxul de intrare in multimea descriptorilor de citire  
 -Daca se primesc date de la STDIN, exitsta 3 cazuri: exit,
-subscribe <topic> <sf> si unsubscribe <topic>  
+subscribe {topic} {sf} si unsubscribe {topic}  
 -Daca se doreste inchiderea clientului, se trimite server-ului un request cu
 tipul 1, care contine si ID-ul clientului  
 -In cazul subscribe si unsubscribe, se trimite server-ului un request de tip 2,
